@@ -6,4 +6,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def test():
-    return "hello"
+    return "{'name':'hello'}"
