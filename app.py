@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def test():
+    sleep(10)
    # response = {"foo:bar", "hello:test"}
     return """
     {
