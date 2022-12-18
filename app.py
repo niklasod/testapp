@@ -10,6 +10,7 @@ def test():
     return """
     {
         'test':'foo',
-        'foo':'bar'
+        'foo':'bar',
+        'name':'jenny'
     }
     """
