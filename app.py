@@ -9,7 +9,7 @@ app = Flask(__name__)
 def test():
     x = threading.Thread(target=thread_function)
     x.start()
-    x.join()
+   # x.join()
    # response = {"foo:bar", "hello:test"}
     return """
     {
