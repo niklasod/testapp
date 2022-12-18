@@ -1,13 +1,15 @@
 from flask import Flask
 import json
 from time import sleep
-
+import threading
 
 app = Flask(__name__)
 
 @app.route('/')
 def test():
-    sleep(10)
+    x = threading.Thread(target=thread_function)
+    x.start()
+    x.join()
    # response = {"foo:bar", "hello:test"}
     return """
     {
@@ -16,3 +18,6 @@ def test():
         'name':'jenny'
     }
     """
+
+def thread_function():
+    sleep(10)
