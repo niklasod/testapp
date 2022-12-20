@@ -16,7 +16,8 @@ def test():
         'test':'foo',
         'foo':'bar',
         'name':'jenny',
-        'additional':'true'
+        'additional':'true',
+        'canyouseethis':'yes
     }
     """
 
