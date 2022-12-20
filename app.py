@@ -15,7 +15,8 @@ def test():
     {
         'test':'foo',
         'foo':'bar',
-        'name':'jenny'
+        'name':'jenny',
+        'additional':'true'
     }
     """
 
