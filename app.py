@@ -22,4 +22,4 @@ def test():
     """
 
 def thread_function():
-    sleep(10)
+    sleep(1)
